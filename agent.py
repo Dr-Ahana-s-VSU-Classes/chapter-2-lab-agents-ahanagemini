@@ -12,3 +12,4 @@ def ReflexVacuumAgent(percept):
     # 3. If location is B, return Left
 
     return None
+    
