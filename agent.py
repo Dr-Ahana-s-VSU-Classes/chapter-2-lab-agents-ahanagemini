@@ -6,10 +6,11 @@ def ReflexVacuumAgent(percept):
     """
     location, status = percept
 
-    # TODO: Implement Figure 2.8 logic
-    # 1. If status is Dirty, return Suck
-    # 2. If location is A, return Right
-    # 3. If location is B, return Left
+    if status == 'Dirty':
+        return 'Suck'
+    elif location == 'A':
+        return 'Right'
+    elif location == 'B':
+        return 'Left'
 
     return None
-    
